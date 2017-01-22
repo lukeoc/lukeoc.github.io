@@ -510,3 +510,8 @@ fieldset[disabled] .btn-success.active {
 #profile-picture {
   border-radius: 25%;
 }
+
+ #map {
+      width: 400px;
+      height: 400px;
+      }
