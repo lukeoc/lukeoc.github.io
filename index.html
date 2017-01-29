@@ -29,17 +29,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<!-- scripts for gmaps -->
-    <script src="http://maps.google.com/maps/api/js"></script>
-    <script src="gmaps.js"></script>
-
-<!-- style for gmaps -->
-     <style type="text/css">
-    #map {
-      width: 400px;
-      height: 400px;
-    }
-  </style>
 
 </head>
 
@@ -167,12 +156,6 @@
             </div>
         </div>
     </section>
-
-    <!-- gmaps HTML sample -->
-    <div id="map"></div>
-
-    <!-- highchart sample -->
-    <div id="container" style="width:100%; height:400px;"></div>
 
     <!-- About Section -->
     <section class="success" id="about">
@@ -546,42 +529,6 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
 
-    <!-- highchart JavaScript -->
-    <script> $(function () { 
-    var myChart = Highcharts.chart('container', {
-        chart: {
-            type: 'bar'
-        },
-        title: {
-            text: 'Fruit Consumption'
-        },
-        xAxis: {
-            categories: ['Apples', 'Bananas', 'Oranges']
-        },
-        yAxis: {
-            title: {
-                text: 'Fruit eaten'
-            }
-        },
-        series: [{
-            name: 'Jane',
-            data: [1, 0, 4]
-        }, {
-            name: 'John',
-            data: [5, 7, 3]
-        }]
-    });
-});
-    </script>
-
-    <!-- gmaps JavaScript -->
-     <script>
-    var map = new GMaps({
-      el: '#map',
-      lat: -12.043333,
-      lng: -77.028333
-  });
-    </script>
 
 </body>
 
